@@ -3,7 +3,7 @@
 - [`SSH` and shells](#ssh-and-shells)
 - [Create a new `SSH` key](#create-a-new-ssh-key)
 - [Find the `SSH` key files](#find-the-ssh-key-files)
-- [Add host to the `SSH` config](#add-host-to-the-ssh-config)
+- [Add the host to the `SSH` config](#add-the-host-to-the-ssh-config)
 - [Start the `ssh-agent`](#start-the-ssh-agent)
 - [Verify the `SSH` setup](#verify-the-ssh-setup)
 - [Connect to the VM](#connect-to-the-vm)
@@ -61,7 +61,7 @@ Because you used a custom name, your keys are named `se_toolkit_key` (private) a
 > Never share the private key.
 > This is your secret identity.
 
-## Add host to the `SSH` config
+## Add the host to the `SSH` config
 
 1. [Open using the `Command Palette` the file](./vs-code.md#open-a-file-using-the-command-palette):
    `~/.ssh/config`
@@ -145,7 +145,7 @@ Linux / `macOS` / `WSL` / `Git Bash`:
 
 ## Connect to the VM
 
-Now that the configuration is saved, you can connect using the alias you [defined before](#add-host-to-the-ssh-config).
+You can connect using the alias that you [added to your `SSH` config](#add-the-host-to-the-ssh-config).
 
 1. [Run using the `Terminal`](./vs-code.md#run-a-command-using-the-terminal):
 
