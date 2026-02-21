@@ -8,7 +8,7 @@
   - [Configure `fail2ban`](#configure-fail2ban)
   - [Disable root SSH login](#disable-root-ssh-login)
   - [Disable password authentication](#disable-password-authentication)
-  - [Create a `autochecker` user](#create-a-autochecker-user)
+  - [Create the `autochecker` user](#create-the-autochecker-user)
   - [Restart `sshd`](#restart-sshd)
 
 ## VM hardening
@@ -143,7 +143,7 @@ VM hardening is the process of securing a server by reducing its attack surface.
 > [!IMPORTANT]
 > Make sure your SSH key is set up before disabling password authentication.
 
-### Create a `autochecker` user
+### Create the `autochecker` user
 
 The `autochecker` user is a restricted user for the instructor to verify VM hardening.
 
