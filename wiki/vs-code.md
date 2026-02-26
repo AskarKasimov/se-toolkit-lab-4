@@ -28,6 +28,7 @@
   - [Paste text inside the `VS Code Terminal`](#paste-text-inside-the-vs-code-terminal)
   - [Look at the current `VS Code Terminal`](#look-at-the-current-vs-code-terminal)
   - [Check the current shell in the `VS Code Terminal`](#check-the-current-shell-in-the-vs-code-terminal)
+  - [Expand the sidebar with open `VS Code Terminal`s](#expand-the-sidebar-with-open-vs-code-terminals)
   - [(`Windows` only) Set the default shell for the `VS Code Terminal`](#windows-only-set-the-default-shell-for-the-vs-code-terminal)
   - [Run a command using the `VS Code Terminal`](#run-a-command-using-the-vs-code-terminal)
 - [`Explorer`](#explorer)
@@ -311,6 +312,13 @@ Method 2:
 
         If you see something else, [set the default shell](#windows-only-set-the-default-shell-for-the-vs-code-terminal).
    - `macOS`, `Linux`: `zsh`, `bash`, or another [shell](./shell.md#shell-variants) name;
+
+### Expand the sidebar with open `VS Code Terminal`s
+
+1. [Open the `VS Code Terminal`](#open-the-vs-code-terminal).
+2. Hover, click, and move the mouse:
+
+   <img alt="Terminal - Expand Open Terminals" src="./images/vs-code/terminal-expand-open-terminals.png" style="width:300px"></img>
 
 ### (`Windows` only) Set the default shell for the `VS Code Terminal`
 
