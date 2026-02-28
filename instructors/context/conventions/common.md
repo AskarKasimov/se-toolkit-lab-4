@@ -119,6 +119,7 @@ Don't provide a little ToC when all lists of items are short.
 - Provide a link to each file that exists in the repo.
 - Link format for wiki references from tasks: `[concept name](../../../wiki/<file>.md#<section>)`.
 - Tasks can reference steps in other tasks: `[Run the web server](./task-1.md#8-run-the-web-server)`.
+- **Don't link to the top-level heading** (the `#` title) of a file. Link to a specific subsection instead. The top-level heading is just the document title — linking to it is the same as linking to the file with no anchor. Good: `[Linux](./linux.md#what-is-linux)`. Bad: `[Linux](./linux.md#linux)`.
 - **Compound phrases:** When a tool name and a concept naturally form a single phrase (e.g., `` `GitHub` pull request ``, `` `VS Code` Terminal ``), link the whole phrase to the concept's section rather than creating two adjacent links. Good: `` [`GitHub` pull request](./github.md#pull-request) ``. Bad: `` [`GitHub`](./github.md) [pull request](./github.md#pull-request) ``.
 
 ## 4.9. Notes, tips, warnings
